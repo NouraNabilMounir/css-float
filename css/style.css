@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body ,
+body > div > div:nth-child(2) {
+  background-color: #000;
+}
+body > div {
+  width: 920px;
+  background-color: #ccc;
+  margin-left: auto;
+  margin-right: auto;
+}
+body > div > div:first-child {
+  background-image: url("../images/bg1.jpg");
+  height: 115px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+body > div > div:first-child > div {
+  margin-left: auto;
+  width: fit-content;
+  padding: 15px;
+}
+body > div > div:first-child > div img{
+  opacity: 0.6;
+}
+body > div > div:nth-child(2) {
+  padding-left: 10px;
+  border-top: thin solid #ccc;
+}
+body > div > div:nth-child(2) > ul {
+  list-style: none;
+}
+body > div > div:nth-child(2) > ul li {
+  display: inline-block;
+  box-sizing: border-box;
+}
+.active ,
+body > div > div:nth-child(2) > ul :hover {
+  background-color: #39e;
+}
+body > div > div:nth-child(2) > ul a {
+  display: inline-block;
+  padding: 5px 10px 10px;
+  color: #ccc;
+  font-weight: lighter;
+}
+body > div > div:nth-child(2) > ul a,
+body > div > div:nth-child(4) > .float h5 {
+  font-size: 12px;
+}
+body > div > div:nth-child(2) > ul .active a {
+  color: #fff;
+  font-weight: normal;
+}
+body > div > div:nth-child(3) {
+  text-align: center;
+  padding-top: 10px;
+}
+body > div > div:nth-child(4) {
+  padding: 20px 10px;
+}
+body > div > div:nth-child(4) > .float:first-of-type {
+  width: 70%;
+  float: left;
+}
+body > div > div:nth-child(4) > .float:nth-of-type(2) {
+  width: 25%;
+  float: right;
+}
+body > div > div:nth-child(4) h2 {
+  color: #0282d8;
+  font-weight: normal;
+  border-bottom: thin solid #999;
+}
+body > div > div:nth-child(4) h2,
+body > div > div:nth-child(4) > .float h5 ,
+body > div > div:nth-child(2) > ul a {
+  text-transform: uppercase;
+}
+.float p {
+  text-align: justify;
+}
+body > div > div:first-child,
+body > div > div:nth-child(4) h2,
+.float:first-of-type > p,
+.float ul {
+  padding: 10px;
+}
+.float:first-of-type p,
+.float ul {
+  font-size: 14px;
+}
+.float ul {
+  padding-inline-start: 40px;
+}
+body > div > div:nth-child(4) .float:first-of-type > div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body > div > div:nth-child(4) > .float .float:first-of-type ,
+body > div > div:nth-child(4) > .float .float.float:nth-of-type(2) {
+  border: thin solid #fff;
+  width: fit-content;
+  padding: 5px;
+}
+body > div > div:nth-child(4) > .float .float:first-of-type {
+  float: left;
+}
+body > div > div:nth-child(4) > .float .float.float:nth-of-type(2) {
+  float: right;
+}
+body > div > div:nth-child(4) .float:first-of-type > div .clear {
+  margin-bottom: 20px;
+}
+body > div > div:nth-child(4) > .float h5 {
+  color: #fa6700;
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+body > div > div:nth-child(4) > .float:nth-of-type(2) h5+p{
+  text-transform: uppercase;
+  color: #0282d8;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+body > div > div:nth-child(4) > .float:nth-of-type(2) > p:nth-of-type(2n) {
+  font-size: 13px;
+  text-align: justify;
+  padding: 10px;
+}
+body > div > div:nth-child(4) > .float:first-of-type > div > p {
+  margin-bottom: 35px;
+}
+body > div > div:nth-child(4) > .clear {
+  border-top: thin solid #999;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body > div > div:nth-child(4) > .clear > p {
+  width: 260px;
+  font-size: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}

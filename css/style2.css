@@ -1,0 +1,28 @@
+body > div > div:nth-child(4) h2 {
+  padding: 10px;
+  text-transform: uppercase;
+  color: #0282d8;
+  font-weight: normal;
+  border-bottom: thin solid #999;
+}
+body > div > div:nth-child(4) p {
+padding: 10px;
+font-size: 14px;
+text-align: justify;
+}
+body > div > div:nth-child(4) > div:first-of-type > p {
+  margin-bottom: 35px;
+}
+body > div > div:nth-child(4) > div > div {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body > div > div:nth-child(4) > div > div img:nth-of-type(2n){
+  float: right;
+}
+body > div > div:nth-child(4) > div > div > div {
+  margin-bottom: 25px;
+}
